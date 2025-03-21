@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio JoXcode</title>
+  <!-- Font Awesome untuk ikon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- File CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Portofolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">Tentang Saya</a></li>
+          <li><a href="#skills">Skill</a></li>
+          <li><a href="#contact">Pesan</a></li>
+          <li><a href="#social-media" class="pesan-btn">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <div class="about-content">
+        <img src="images/profile.jpg" alt="Foto Profil" class="profile-img">
+        <p>
+          Halo Saya seorang Web Developer dan Trader, Saya memiliki passion dalam membangun website yang menarik dan fungsional, serta menganalisis pasar untuk set up, Saya selalu bersemangat untuk belajar hal baru dan mengembangkan keterampilan saya
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Learn Skill</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <img src="images/web-dev.jpg" alt="Web Development">
+          <h3>Web Development</h3>
+          <p>Saya ahli dalam HTML, CSS, JavaScript, dan framework seperti React dan lain lain, Saya bisa membangun website responsif dan modern</p>
+        </div>
+        <div class="skill">
+          <img src="images/trader.jpg" alt="Trader">
+          <h3>Trader</h3>
+          <p>Saya memiliki pengalaman dalam saham, forex, dan cryptocurrency, Saya menggunakan analisis teknikal dan fundamental untuk mengambil keputusan</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Kontak Saya</h2>
+      <form id="contact-form">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <button type="submit">Kirim</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="social-media" class="section">
+    <div class="container">
+      <h2>Hubungi Saya</h2>
+      <div class="social-links">
+        <a href="https://github.com/FLAME-XD" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://facebook.com/JoanSaputra" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://wa.me/6285601539138" target="_blank" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="https://instagram.com/kzee10_" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Joan Adi Saputra. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- File JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
